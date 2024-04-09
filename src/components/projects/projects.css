@@ -129,15 +129,6 @@
     margin-bottom: var(--mb-2);
 }
 
-.project__modal-description {
-    font-size: var(--small-font-size);
-    padding: 0 3.5rem;
-    margin-bottom: var(--mb-2);
-    margin-top: var(--mb-2);
-    color: var(--title-color);
-    text-align: initial;
-}
-
 .project__modal-link:hover {
     color: var(--title-color-dark);
 }
@@ -145,6 +136,25 @@
 .active__category {
     background-color: var(--title-color);
     color: var(--container-color);
+}
+
+.project__modal-container {
+    font-size: var(--small-font-size);
+    margin-bottom: var(--mb-2);
+    margin-top: var(--mb-2);
+    background-color: var(--body-color);
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 0.5rem;
+}
+
+.project__modal-description {
+    font-size: var(--small-font-size);
+    padding: 0 3.5rem;
+    margin-bottom: var(--mb-2);
+    margin-top: var(--mb-2);
+    color: var(--title-color);
+    text-align: initial;
 }
 
 @media screen and (max-width: 992px) {

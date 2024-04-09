@@ -13,9 +13,12 @@ const ProjectsModal = ({card, onClose}) => {
                     <source src={card.video} type="video/mp4" />
                 </video>
                 <a href={card.github} target="_blank" className="project__modal-link">{card.github}</a>
-                <p className="project__modal-description">
-                    {card.description}
-                </p>
+                <div className="project__modal-container">
+                    <p className="project__modal-description">
+                        {card.description}
+                        
+                    </p>
+                </div>
             </div>
         </div>
     )
