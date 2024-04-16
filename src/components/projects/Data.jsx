@@ -3,12 +3,18 @@ import skirmish from '../../assets/skirmish.png'
 import doodleJump from '../../assets/doodle-jump.png'
 import speeder from '../../assets/speeder.png'
 import portfolio from '../../assets/portfolio.png'
+import pokemon from '../../assets/pokemon.png'
+import NIDS from '../../assets/NIDS.png'
+import yelp from '../../assets/yelp.png'
 
 import eventPlugDemo from '../../assets/eventplug-demo.mp4'
 import skirmishDemo from '../../assets/skirmish-demo.mp4'
 import doodleJumpDemo from '../../assets/doodle-jump-demo.mp4'
 import speederDemo from '../../assets/speeder-demo.mp4'
 import portfolioDemo from '../../assets/portfolio-demo.mp4'
+import pokemonDemo from '../../assets/pokemon-demo.mp4'
+import NIDSDemo from '../../assets/NIDS-demo.mp4'
+import yelpDemo from '../../assets/yelp-demo.mp4'
 
 export const projectsData = [
     {
@@ -56,6 +62,33 @@ export const projectsData = [
         description: 'Designed and developed a sleek and professional portfolio website using HTML, CSS, JavaScrip and React. Ensured seamless responsiveness across all screen sizes. Implemented intuitive navigation and visually appealing layout to showcase CV effectively.',
         github: 'https://github.com/TrNam/portfolio'
     },
+    {
+        id: 6,
+        image: pokemon,
+        video: pokemonDemo,
+        title: 'Pokemon Website',
+        category: 'web',
+        description: 'Utilizing HTML, CSS, and JavaScript, this project aims to provide users with an immersive experience akin to the Pokémon gaming universe, where they can access detailed information about various Pokémon species using the pokedex.',
+        github: 'https://github.com/TrNam/PokemonGame'
+    },
+    {
+        id: 7,
+        image: NIDS,
+        video: NIDSDemo,
+        title: 'Network Intrusion Detection System',
+        category: 'machine learning',
+        description: 'This project developed a Network Intrusion Detection System (NIDS) using the UNSW-NB15 dataset. I selected relevant features and tested RandomForests, K-Nearest Neighbors, and Gradient Boosting classifiers for classification. My rigorous approach and hyper-parameter tuning resulted in outstanding accuracy and F1 scores.',
+        github: 'https://github.com/TrNam/NIDS'
+    },
+    {
+        id: 8,
+        image: yelp,
+        video: yelpDemo,
+        title: 'Sentiment Analysis on Yelp Ratings',
+        category: 'machine learning',
+        description: "This project built a sentiment analysis model for Yelp.com ratings from customer reviews. With Neural Networks, Naive Bayes, and Random Forests, I achieved over 50% accuracy. PyTorch Neural Networks model excelled, showcasing machine learning's potential in rating prediction for platforms like Yelp.com.",
+        github: 'https://github.com/TrNam/sentiment-analysis'
+    },
 ]
 
 export const projectsNav = [
@@ -67,5 +100,8 @@ export const projectsNav = [
     },
     {
         category: 'app'
+    },
+    {
+        category: 'machine learning'
     },
 ]
